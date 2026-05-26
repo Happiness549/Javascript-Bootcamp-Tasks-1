@@ -18,3 +18,42 @@ console.log("Multiplication:" ,multiplication);
 console.log("Division:",division);
 console.log("Medulus",medulus);
 console.log("Exponentiation",exponentiation);
+
+
+//Exercise 2: Boolean and Operators
+
+let greater = 9 > 7;
+let lesser = 10 < 12;
+let equal = 6 === 2;
+let not = 6 !== 6;
+
+let x = 8;
+let y = 12;
+
+console.log(x>y);
+console.log(x < y);
+console.log(x === y);
+console.log(x !== y);
+
+let a = true;
+let b = false;
+
+let andResult = a && b;
+let orResult = a || b;
+let notResult = !a;
+console.log(andResult);
+console.log(orResult);
+console.log(notResult);
+
+let p = 10;
+
+p += 8
+console.log(p);
+p -= 2
+console.log(p);
+p *= 3
+console.log(p);
+p /= 2
+console.log(p);
+p %= 2
+console.log(p)
