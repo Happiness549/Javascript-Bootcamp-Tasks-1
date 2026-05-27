@@ -11,7 +11,7 @@ if(temperature < 0){
     alert("It's freezing");
 } else if(temperature >= 0 && temperature <= 15){
     alert("It's cold");
-} else if(temperature >=16 && temperature >= 25 ){
+} else if(temperature >=16 && temperature <= 25 ){
     alert("It's mild")
 } else{
     alert("It's warm");
